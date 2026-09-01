@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>时光纪 Chronaly · 隐私政策 Privacy Policy</title>
+<style>
+  :root { --ink:#3D3832; --ink3:#857A6E; --red:#E0523E; --bg:#FFF7EC; --card:#FFFFFF; --line:#EFE5D8; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif; background:var(--bg); color:var(--ink); line-height:1.75; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  header { text-align:center; padding:36px 0 28px; }
+  header .logo { font-size:44px; }
+  h1 { font-size:26px; margin-top:10px; }
+  h1 small { display:block; font-size:14px; color:var(--ink3); font-weight:400; margin-top:6px; }
+  .lang-switch { display:flex; justify-content:center; gap:10px; margin:18px 0 30px; }
+  .lang-switch a { text-decoration:none; font-size:14px; padding:6px 18px; border-radius:16px; background:var(--card); color:var(--ink); border:1px solid var(--line); }
+  .lang-switch a.on { background:var(--red); color:#fff; border-color:var(--red); }
+  section { background:var(--card); border-radius:16px; padding:26px 28px; margin-bottom:18px; border:1px solid var(--line); }
+  h2 { font-size:18px; margin-bottom:12px; color:var(--ink); }
+  h2 .no { color:var(--red); margin-right:6px; }
+  p, li { font-size:15px; color:var(--ink); }
+  ul { padding-left:20px; margin:8px 0; }
+  .en { display:none; }
+  .zh-only .en { display:none; }
+  footer { text-align:center; color:var(--ink3); font-size:13px; margin-top:30px; }
+  .hl { background:#FFF1E8; border-radius:8px; padding:2px 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="logo">⏰</div>
+  <h1>时光纪 Chronaly<small>隐私政策 · Privacy Policy</small></h1>
+</header>
+
+<div class="lang-switch">
+  <a href="#" id="btn-zh" class="on" onclick="switchLang('zh');return false;">简体中文</a>
+  <a href="#" id="btn-en" onclick="switchLang('en');return false;">English</a>
+</div>
+
+<!-- ================= 中文 ================= -->
+<div id="doc-zh">
+
+<section>
+<h2><span class="no">1.</span>总则</h2>
+<p>时光纪（Chronaly）是一款在设备本地运行的定时提醒工具（提醒 / 倒数日 / 打卡 / 快捷倒计时 / 语音创建）。本政策说明我们如何处理与您的隐私相关的信息。<b>本应用为单机应用：无账号体系、无云服务器，您的全部数据默认存储在设备本地。</b></p>
+<p>生效日期：2026 年 1 月 1 日 · 版本：v1.0</p>
+</section>
+
+<section>
+<h2><span class="no">2.</span>我们不收集的数据</h2>
+<ul>
+<li><b>不收集</b>任何个人身份信息（无需注册、无需手机号、无需邮箱）；</li>
+<li><b>不使用</b>任何广告、统计或用户行为分析 SDK，不进行任何形式的跟踪（无 IDFA / 广告标识符读取）；</li>
+<li><b>不上传</b>您的提醒内容、打卡记录、倒数日数据——它们仅保存在本机数据库中。</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">3.</span>权限使用说明</h2>
+<ul>
+<li><b>通知权限</b>：用于在您设定的时间送达提醒，这是应用的核心功能；</li>
+<li><b>麦克风权限</b>：仅在您主动使用"语音创建提醒"时录音，音频仅用于识别为提醒文字，识别完成即丢弃，绝不用于其他目的；</li>
+<li><b>日历权限</b>：仅当您开启"日历提醒镜像"后，应用会在<b>您自己的系统日历</b>中创建名为"时光纪提醒"的子日历作为第三方提醒通道，应用无法读取您日历中的其他内容；</li>
+<li><b>Siri 与快捷指令</b>：用于支持"用时光纪设置倒计时"等语音命令，相关数据不出设备；</li>
+<li><b>后台音频</b>：仅在倒计时结束响铃期间保持铃声播放（含锁屏状态），直到您手动停止。</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">4.</span>语音识别</h2>
+<p>语音创建功能将您说出的话语转换为提醒内容。音频与识别过程仅服务于本次提醒创建，识别完成后立即处理丢弃，不会留存、不会用于模型训练或任何其他用途。</p>
+</section>
+
+<section>
+<h2><span class="no">5.</span>内购与付款</h2>
+<p>应用的 Pro 订阅与买断项目通过 Apple App Store 内购（IAP）完成。所有支付信息均由 Apple 处理，开发者无法接触您的卡号、账单地址等任何支付信息。我们不保存任何交易明细。</p>
+</section>
+
+<section>
+<h2><span class="no">6.</span>数据的存储与删除</h2>
+<ul>
+<li>全部数据（提醒、打卡、倒数日、设置）存储于设备本地数据库；</li>
+<li><b>卸载应用即彻底删除全部数据</b>，无任何云端残留；</li>
+<li>日历镜像产生的日程可在应用内一键清除，或直接在系统日历中删除。</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">7.</span>儿童隐私</h2>
+<p>本应用内容分级为 4+，不面向 13 岁以下儿童做任何定向收集。由于不收集任何数据，儿童使用同样安全。</p>
+</section>
+
+<section>
+<h2><span class="no">8.</span>政策变更与联系</h2>
+<p>如政策有重大变更，将在应用内及本页面更新并更新顶部版本号。如有疑问，请联系：<span class="hl">support@chronaly.app（占位，上线前替换）</span></p>
+</section>
+
+</div>
+
+<!-- ================= English ================= -->
+<div id="doc-en" class="en" style="display:none">
+
+<section>
+<h2><span class="no">1.</span>Overview</h2>
+<p>Chronaly is an on-device reminder tool (reminders, countdowns, habits, quick timers, voice input). This policy explains how we handle privacy-related information. <b>Chronaly is a fully standalone app: no accounts, no cloud server — all your data stays on your device by default.</b></p>
+<p>Effective date: Jan 1, 2026 · Version: v1.0</p>
+</section>
+
+<section>
+<h2><span class="no">2.</span>What We Do NOT Collect</h2>
+<ul>
+<li>We do <b>not collect</b> any personal identity information (no registration, no phone number, no email);</li>
+<li>We do <b>not use</b> any advertising, analytics, or behavioral tracking SDKs (no IDFA / advertising identifier);</li>
+<li>We do <b>not upload</b> your reminders, habit records, or countdown data — they are stored only in the local on-device database.</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">3.</span>Permissions</h2>
+<ul>
+<li><b>Notifications</b>: delivering reminders at times you set — the core function of the app;</li>
+<li><b>Microphone</b>: records audio only while you actively use "voice input" to create a reminder. Audio is used solely to produce the reminder text and is discarded immediately after recognition;</li>
+<li><b>Calendar</b>: only if you enable "calendar mirroring", the app creates a sub-calendar named "Chronaly Reminders" in <b>your own system calendar</b> as a backup delivery channel. The app cannot read anything else in your calendar;</li>
+<li><b>Siri &amp; Shortcuts</b>: supports voice commands such as "start a countdown with Chronaly". Related data never leaves the device;</li>
+<li><b>Background audio</b>: keeps the countdown ringtone playing (including on the lock screen) until you manually stop it.</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">4.</span>Speech Recognition</h2>
+<p>The voice feature converts your speech into reminder content. Audio and recognition serve only that single creation event and are discarded immediately afterward — never stored, never used for model training or any other purpose.</p>
+</section>
+
+<section>
+<h2><span class="no">5.</span>In-App Purchases</h2>
+<p>Pro subscriptions and one-time purchases are processed entirely through Apple's In-App Purchase system. All payment information is handled by Apple; the developer never sees your card number, billing address, or any payment details. No transaction records are retained.</p>
+</section>
+
+<section>
+<h2><span class="no">6.</span>Data Storage &amp; Deletion</h2>
+<ul>
+<li>All data (reminders, habits, countdowns, settings) lives in the local on-device database;</li>
+<li><b>Uninstalling the app permanently deletes all data</b> — nothing remains in any cloud;</li>
+<li>Calendar mirror events can be cleared in one tap inside the app, or deleted directly in the system Calendar app.</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">7.</span>Children's Privacy</h2>
+<p>The app is rated 4+ and performs no targeted collection from children under 13. Since no data is collected at all, it is equally safe for children.</p>
+</section>
+
+<section>
+<h2><span class="no">8.</span>Changes &amp; Contact</h2>
+<p>Material changes to this policy will be announced in-app and on this page with an updated version number. Questions? Contact: <span class="hl">support@chronaly.app (placeholder — replace before submission)</span></p>
+</section>
+
+</div>
+
+<footer>© 2026 Chronaly · 时光纪</footer>
+</div>
+
+<script>
+function switchLang(l) {
+  document.getElementById('doc-zh').style.display = l === 'zh' ? '' : 'none';
+  document.getElementById('doc-en').style.display = l === 'en' ? '' : 'none';
+  document.getElementById('btn-zh').classList.toggle('on', l === 'zh');
+  document.getElementById('btn-en').classList.toggle('on', l === 'en');
+}
+</script>
+</body>
+</html>
