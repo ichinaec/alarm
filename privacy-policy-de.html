@@ -76,11 +76,26 @@
 </ul>
 </section>
 <section>
-<h2><span class="no">7.</span>Datenschutz von Kindern</h2>
+<h2><span class="no">7.</span>Android-Systemberechtigungen</h2>
+<p>Die Android-Version von Kairos fragt ausschließlich die unten aufgeführten Systemberechtigungen ab – jede nur für die genannte lokale Funktion. Wird eine Berechtigung abgelehnt, ist lediglich die zugehörige Funktion eingeschränkt; der Rest der App funktioniert weiterhin.</p>
+<ul>
+<li><b>Benachrichtigungen (POST_NOTIFICATIONS)</b>: Zustellung der Erinnerungsbenachrichtigungen zur eingestellten Zeit — die Kernfunktion der App;</li>
+<li><b>Genaue Alarme (SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM)</b>: damit Erinnerungen exakt zur eingestellten Zeit auslösen, auch im Doze-Ruhezustand;</li>
+<li><b>Vollbild-Benachrichtigung (USE_FULL_SCREEN_INTENT)</b>: zeigt beim Klingeln die Vollbild-Weckerseite auf dem Sperrbildschirm;</li>
+<li><b>Mikrofon (RECORD_AUDIO)</b>: nur bei aktiver Nutzung der Spracherstellung. Audio wird vom systemeigenen Spracherkennungsdienst verarbeitet (auf vielen Geräten der Google-Sprachdienst, unterliegt der Datenschutzerklärung von Google) und nach der Erkennung sofort verworfen — die App speichert es nie;</li>
+<li><b>Kamera (CAMERA)</b>: nur beim Aufnehmen oder Auswählen eines Bildes in der Foto-Erstellung. Die Erkennung erfolgt vollständig auf dem Gerät (integriertes ML Kit-Modell, komplett offline); das Foto wird nur vorübergehend verarbeitet und sofort gelöscht — nie hochgeladen oder gespeichert. Bei Ablehnung steht nur die Galerie-Auswahl zur Verfügung;</li>
+<li><b>Start nach Neustart (RECEIVE_BOOT_COMPLETED)</b>: stellt deine Erinnerungen nach dem Neustart des Geräts automatisch wieder her;</li>
+<li><b>Vibration &amp; Wachhalten (VIBRATE / WAKE_LOCK / Vordergrunddienst)</b>: hält Klingeln und Vibration aufrecht, bis du sie stoppst, und betreibt den Schnell-Countdown;</li>
+<li><b>Netzwerk (INTERNET / ACCESS_NETWORK_STATE)</b>: nur für das optionale Update der Feiertagsdaten. Die App ist vollständig offline nutzbar, und es werden keine personenbezogenen Daten übertragen.</li>
+</ul>
+<p><b>Alle Daten werden ausschließlich auf deinem Gerät gespeichert (lokale Datenbank und Einstellungen). Kein Konto, keine Analyse, keine Werbung, kein Upload — beim Deinstallieren werden alle Daten endgültig gelöscht.</b></p>
+</section>
+<section>
+<h2><span class="no">8.</span>Datenschutz von Kindern</h2>
 <p>Die App ist mit 4+ eingestuft und führt keine gezielte Erhebung bei Kindern unter 13 durch. Da überhaupt keine Daten erhoben werden, ist sie für Kinder genauso sicher.</p>
 </section>
 <section>
-<h2><span class="no">8.</span>Änderungen &amp; Kontakt</h2>
+<h2><span class="no">9.</span>Änderungen &amp; Kontakt</h2>
 <p>Wesentliche Änderungen dieser Erklärung werden in der App und auf dieser Seite mit aktualisierter Versionsnummer angekündigt. Fragen? Kontakt: <span class="hl">didilongsec@hotmail.com</span></p>
 </section>
 

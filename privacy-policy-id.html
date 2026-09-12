@@ -76,11 +76,26 @@
 </ul>
 </section>
 <section>
-<h2><span class="no">7.</span>Privasi Anak</h2>
+<h2><span class="no">7.</span>Izin Sistem Android</h2>
+<p>Versi Android Kairos hanya meminta izin sistem yang tercantum di bawah ini, masing-masing semata-mata untuk fungsi lokal yang disebutkan. Jika sebuah izin ditolak, hanya fitur terkait yang terbatas; bagian lain aplikasi tetap berfungsi.</p>
+<ul>
+<li><b>Notifikasi (POST_NOTIFICATIONS)</b>: mengirimkan notifikasi pengingat pada waktu yang Anda atur — fungsi inti aplikasi;</li>
+<li><b>Alarm presisi (SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM)</b>: memastikan pengingat berbunyi tepat pada waktunya, termasuk saat perangkat dalam mode siaga Doze;</li>
+<li><b>Notifikasi layar penuh (USE_FULL_SCREEN_INTENT)</b>: menampilkan halaman alarm layar penuh di layar kunci saat berbunyi;</li>
+<li><b>Mikrofon (RECORD_AUDIO)</b>: hanya saat Anda aktif menggunakan "buat dengan suara". Audio diproses oleh layanan pengenalan suara sistem (di banyak perangkat berupa layanan suara Google yang tunduk pada Kebijakan Privasi Google) dan langsung dibuang setelah dikenali — aplikasi tidak pernah menyimpannya;</li>
+<li><b>Kamera (CAMERA)</b>: hanya saat mengambil atau memilih gambar pada "buat dengan foto". Pengenalan sepenuhnya di perangkat (model ML Kit bawaan, sepenuhnya offline); foto hanya diproses sementara lalu segera dihapus — tidak pernah diunggah atau disimpan. Jika ditolak, hanya pemilihan dari galeri yang tersedia;</li>
+<li><b>Selesai booting (RECEIVE_BOOT_COMPLETED)</b>: memulihkan pengingat Anda secara otomatis setelah perangkat dimulai ulang;</li>
+<li><b>Getaran & tetap aktif (VIBRATE / WAKE_LOCK / layanan latar depan)</b>: menjaga nada dering dan getaran sampai Anda hentikan, serta menjalankan hitung mundur cepat;</li>
+<li><b>Jaringan (INTERNET / ACCESS_NETWORK_STATE)</b>: hanya untuk pembaruan data hari libur yang opsional. Aplikasi berfungsi penuh secara offline dan tidak ada data pribadi yang dikirim.</li>
+</ul>
+<p><b>Semua data hanya disimpan di perangkat Anda (basis data dan preferensi lokal). Tanpa akun, tanpa analitik, tanpa iklan, tanpa unggahan — menghapus instalasi aplikasi akan menghapus semua data secara permanen.</b></p>
+</section>
+<section>
+<h2><span class="no">8.</span>Privasi Anak</h2>
 <p>Aplikasi ini berperingkat 4+ dan tidak melakukan pengumpulan tertarget terhadap anak di bawah 13 tahun. Karena tidak ada data yang dikumpulkan sama sekali, aplikasi ini sama amannya untuk anak-anak.</p>
 </section>
 <section>
-<h2><span class="no">8.</span>Perubahan &amp; Kontak</h2>
+<h2><span class="no">9.</span>Perubahan &amp; Kontak</h2>
 <p>Perubahan material pada kebijakan ini akan diumumkan di dalam aplikasi dan di halaman ini dengan nomor versi terbaru. Ada pertanyaan? Hubungi: <span class="hl">didilongsec@hotmail.com</span></p>
 </section>
 

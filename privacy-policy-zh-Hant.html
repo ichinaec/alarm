@@ -76,11 +76,26 @@
 </ul>
 </section>
 <section>
-<h2><span class="no">7.</span>兒童隱私</h2>
+<h2><span class="no">7.</span>Android 系統權限說明</h2>
+<p>準點的 Android 版僅申請下列系統權限，且每項均只用於對應的本機功能，絕不用於其他目的。拒絕某項權限只會導致相應功能降級或不可用，應用其餘功能不受影響。</p>
+<ul>
+<li><b>通知（POST_NOTIFICATIONS）</b>：在您設定的時間送達提醒通知——這是應用的核心功能；</li>
+<li><b>精確鬧鐘（SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM）</b>：讓提醒在設定時刻準時觸發，裝置休眠（Doze）時依然準點；</li>
+<li><b>全螢幕通知（USE_FULL_SCREEN_INTENT）</b>：提醒響鈴時在鎖定畫面彈出全螢幕響鈴頁面；</li>
+<li><b>麥克風（RECORD_AUDIO）</b>：僅在您主動使用「語音建立」時錄音。音訊由裝置系統語音辨識服務處理（多數裝置上為 Google 語音服務，按 Google 隱私權政策處理），辨識完成後立即捨棄，應用不會留存音訊；</li>
+<li><b>相機（CAMERA）</b>：僅在「拍照建立」拍攝或選取圖片時使用。辨識全部在本機完成（內建 ML Kit 模型、完全離線），照片僅暫時處理、隨即刪除，絕不上傳或留存；拒絕後將降級為僅可從相簿選圖；</li>
+<li><b>開機自動啟動（RECEIVE_BOOT_COMPLETED）</b>：裝置重新開機後自動恢復您的提醒；</li>
+<li><b>震動與保持喚醒（VIBRATE / WAKE_LOCK / 前景服務）</b>：保證響鈴與震動持續直到您手動停止，並驅動快捷倒數計時；</li>
+<li><b>網路（INTERNET / ACCESS_NETWORK_STATE）</b>：僅用於可選的節假日資料更新。應用完全離線亦可使用，且不傳輸任何個人資料。</li>
+</ul>
+<p><b>所有資料僅保存在您的裝置本機（本機資料庫與偏好設定）。無帳號、無統計、無廣告、無任何上傳——解除安裝應用程式即徹底刪除全部資料。</b></p>
+</section>
+<section>
+<h2><span class="no">8.</span>兒童隱私</h2>
 <p>本應用程式內容分級為 4+，不針對 13 歲以下兒童做任何定向收集。由於不收集任何資料，兒童使用同樣安全。</p>
 </section>
 <section>
-<h2><span class="no">8.</span>政策變更與聯絡</h2>
+<h2><span class="no">9.</span>政策變更與聯絡</h2>
 <p>如政策有重大變更，將在應用程式內及本頁面更新並更新頂部版本號。如有疑問，請聯絡：<span class="hl">didilongsec@hotmail.com</span></p>
 </section>
 

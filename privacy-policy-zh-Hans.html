@@ -76,11 +76,26 @@
 </ul>
 </section>
 <section>
-<h2><span class="no">7.</span>儿童隐私</h2>
+<h2><span class="no">7.</span>Android 系统权限说明</h2>
+<p>准点的 Android 版仅申请下列系统权限，且每项均只用于对应的本机功能，绝不用于其他目的。拒绝某项权限只会导致相应功能降级或不可用，应用其余功能不受影响。</p>
+<ul>
+<li><b>通知（POST_NOTIFICATIONS）</b>：在您设定的时间送达提醒通知——这是应用的核心功能；</li>
+<li><b>精确闹钟（SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM）</b>：让提醒在设定时刻准时触发，设备休眠（Doze）时依然准点；</li>
+<li><b>全屏通知（USE_FULL_SCREEN_INTENT）</b>：提醒响铃时在锁屏界面弹出全屏响铃页面；</li>
+<li><b>麦克风（RECORD_AUDIO）</b>：仅在您主动使用「语音创建」时录音。音频由设备系统语音识别服务处理（多数设备上为 Google 语音服务，按 Google 隐私政策处理），识别完成后立即丢弃，应用不留存音频；</li>
+<li><b>相机（CAMERA）</b>：仅在「拍照创建」拍摄或选取图片时使用。识别全部在本机完成（内置 ML Kit 模型、完全离线），照片仅临时处理、随即删除，绝不上传或留存；拒绝后将降级为仅可从相册选图；</li>
+<li><b>开机自启（RECEIVE_BOOT_COMPLETED）</b>：设备重启后自动恢复您的提醒；</li>
+<li><b>震动与保持唤醒（VIBRATE / WAKE_LOCK / 前台服务）</b>：保证响铃与震动持续直到您手动停止，并驱动快捷倒计时；</li>
+<li><b>网络（INTERNET / ACCESS_NETWORK_STATE）</b>：仅用于可选的节假日数据更新。应用完全离线亦可使用，且不传输任何个人数据。</li>
+</ul>
+<p><b>所有数据仅保存在您的设备本地（本机数据库与偏好设置）。无账号、无统计、无广告、无任何上传——卸载应用即彻底删除全部数据。</b></p>
+</section>
+<section>
+<h2><span class="no">8.</span>儿童隐私</h2>
 <p>本应用内容分级为 4+，不面向 13 岁以下儿童做任何定向收集。由于不收集任何数据，儿童使用同样安全。</p>
 </section>
 <section>
-<h2><span class="no">8.</span>政策变更与联系</h2>
+<h2><span class="no">9.</span>政策变更与联系</h2>
 <p>如政策有重大变更，将在应用内及本页面更新并更新顶部版本号。如有疑问，请联系：<span class="hl">didilongsec@hotmail.com</span></p>
 </section>
 

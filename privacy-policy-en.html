@@ -76,11 +76,26 @@
 </ul>
 </section>
 <section>
-<h2><span class="no">7.</span>Children's Privacy</h2>
+<h2><span class="no">7.</span>Android System Permissions</h2>
+<p>The Kairos app for Android requests only the system permissions listed below, each strictly for the local feature indicated — nothing more. If a permission is declined, the related feature is degraded or disabled, and the rest of the app keeps working.</p>
+<ul>
+<li><b>Notifications (POST_NOTIFICATIONS)</b>: delivering reminder notifications at the times you set — the core function of the app;</li>
+<li><b>Exact alarms (SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM)</b>: scheduling reminders to fire at the exact moment, guaranteed even when the device is in Doze standby;</li>
+<li><b>Full-screen notifications (USE_FULL_SCREEN_INTENT)</b>: showing the full-screen alarm page on the lock screen when a reminder rings;</li>
+<li><b>Microphone (RECORD_AUDIO)</b>: only while you actively use "voice creation". Audio is processed by your device's system speech recognition service (on many devices this is Google's speech service, handled under Google's privacy policy) and is discarded immediately after recognition — the app never stores it;</li>
+<li><b>Camera (CAMERA)</b>: only when you take or pick a picture in "photo creation". Recognition happens entirely on-device (bundled ML Kit model, fully offline); the photo is processed only temporarily and deleted right after — never uploaded or retained. If declined, the feature falls back to gallery-pick only;</li>
+<li><b>Run at startup (RECEIVE_BOOT_COMPLETED)</b>: restoring your reminders automatically after the device restarts;</li>
+<li><b>Vibration &amp; keep-awake (VIBRATE / WAKE_LOCK / foreground service)</b>: keeping the ringtone and vibration going until you stop them, and running the quick countdown timer;</li>
+<li><b>Network (INTERNET / ACCESS_NETWORK_STATE)</b>: only for the optional holiday-data update. The app is fully usable offline, and no personal data is transmitted.</li>
+</ul>
+<p><b>All data is stored only on your device (local database and preferences). No account, no analytics, no ads, and nothing is uploaded — uninstalling the app permanently deletes all data.</b></p>
+</section>
+<section>
+<h2><span class="no">8.</span>Children's Privacy</h2>
 <p>The app is rated 4+ and performs no targeted collection from children under 13. Since no data is collected at all, it is equally safe for children.</p>
 </section>
 <section>
-<h2><span class="no">8.</span>Changes &amp; Contact</h2>
+<h2><span class="no">9.</span>Changes &amp; Contact</h2>
 <p>Material changes to this policy will be announced in-app and on this page with an updated version number. Questions? Contact: <span class="hl">didilongsec@hotmail.com</span></p>
 </section>
 
