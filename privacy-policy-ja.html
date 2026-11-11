@@ -30,22 +30,25 @@
 
 <header>
   <div class="logo">⏰</div>
-  <h1>Kairos · Kairos<small>プライバシーポリシー · v1.0</small></h1>
+  <h1>Kairos · Kairos<small>プライバシーポリシー · v1.2</small></h1>
 </header>
 
-<nav class="langs"><a href="privacy-policy-en.html">English</a> <a href="privacy-policy-zh-Hans.html">简体中文</a> <a href="privacy-policy-zh-Hant.html">繁體中文</a> <a href="privacy-policy-ja.html" class="cur">日本語</a> <a href="privacy-policy-ko.html">한국어</a> <a href="privacy-policy-de.html">Deutsch</a> <a href="privacy-policy-hi.html">हिन्दी</a> <a href="privacy-policy-id.html">Bahasa Indonesia</a> <a href="privacy-policy-ar.html">العربية</a> <a href="privacy-policy-he.html">עברית</a></nav>
+<nav class="langs"><a href="privacy-policy-en.html">English</a> <a href="privacy-policy-zh-Hans.html">简体中文</a> <a href="privacy-policy-zh-Hant.html">繁體中文</a> <a href="privacy-policy-ja.html" class="cur">日本語</a> <a href="privacy-policy-ko.html">한국어</a> <a href="privacy-policy-de.html">Deutsch</a> <a href="privacy-policy-fr.html">Français</a> <a href="privacy-policy-es.html">Español</a> <a href="privacy-policy-it.html">Italiano</a> <a href="privacy-policy-pt-BR.html">Português (Brasil)</a> <a href="privacy-policy-th.html">ไทย</a> <a href="privacy-policy-vi.html">Tiếng Việt</a> <a href="privacy-policy-id.html">Bahasa Indonesia</a> <a href="privacy-policy-tr.html">Türkçe</a> <a href="privacy-policy-hi.html">हिन्दी</a> <a href="privacy-policy-ar.html">العربية</a> <a href="privacy-policy-he.html">עברית</a></nav>
 
 <section>
 <h2><span class="no">1.</span>概要</h2>
-<p>Kairos（準点）は端末内で動作するリマインダーツールです（リマインダー / カウントダウン / 習慣化 / クイックタイマー / 音声・写真で作成）。本ポリシーは、プライバシーに関わる情報の取り扱いについて説明するものです。<b>本アプリは完全スタンドアロン型で、アカウントもクラウドサーバーも不要。データは既定で端末内にのみ保存されます。</b></p>
-<p>発効日：2026 年 1 月 1 日 · バージョン：v1.0</p>
+<p>Kairos（準点）は端末内で動作するリマインダーツールです（リマインダー / カウントダウン / 習慣化 / クイックタイマー / 音声・写真で作成）。本ポリシーは、プライバシーに関わる情報の取り扱いについて説明するものです。<b>アカウントはありません。リマインダー、習慣、カウントダウンは端末内に残ります。</b>広告効果の測定は次の節で別途説明します。</p>
+<p>発効日：2026 年 11 月 11 日 · バージョン：v1.2</p>
 </section>
 <section>
-<h2><span class="no">2.</span>収集しない情報</h2>
+<h2><span class="no">2.</span>データと広告効果の測定</h2>
 <ul>
-<li>個人を特定する情報（登録・電話番号・メールアドレス）は<b>収集しません</b>；</li>
-<li>広告・解析・行動トラッキング SDK は<b>一切使用せず</b>、いかなる追跡も行いません（IDFA / 広告識別子の読み取りなし）；</li>
-<li>リマインダーの内容、習慣の記録、カウントダウンのデータは<b>アップロードされず</b>、端末内データベースにのみ保存されます。</li>
+<li>氏名、電話番号、メールアドレスは<b>収集しません</b>。登録も不要です。</li>
+<li>リマインダー本文、習慣の記録、カウントダウンの内容は<b>送信しません</b>。これらは端末内のデータベースにのみ保存されます。</li>
+<li>追跡を許可した場合、広告効果を測るために広告識別子を読み取ります。拒否しても、リマインダーと習慣は引き続き使えます。</li>
+<li>ランディングページがクリップボードに書いた短いリンクは、そのクリックを認めるためだけに読みます。アプリはクリップボードを書き換えません。</li>
+<li>アプリの起動、開いた画面、リマインダー・習慣・カウントダウンの作成は https://sdk.adeventstrace.com に送信されます。作成イベントと画面には金額がなく、画面にリマインダーの本文は含まれません。</li>
+<li>Apple Search Ads の帰属トークンも同じサーバーに転送されます。</li>
 </ul>
 </section>
 <section>
@@ -65,13 +68,13 @@
 </section>
 <section>
 <h2><span class="no">5.</span>アプリ内課金</h2>
-<p>Pro サブスクリプションと買い切りアイテムは、すべて Apple の App 内課金（IAP）を通じて処理されます。支払い情報はすべて Apple が扱い、開発者がカード番号や請求先などの情報に触れることはありません。取引記録も保持しません。</p>
+<p>Pro のサブスクリプションと買い切りは Apple の App 内課金で処理されます。カード情報は Apple が保持し、開発者はカード番号や請求先住所を見ません。購入が成功すると、その取引の価格と通貨を https://sdk.adeventstrace.com に送信します。送信済みの取引番号は端末内だけに保存し、同じ取引を二度送ることはありません。</p>
 </section>
 <section>
 <h2><span class="no">6.</span>データの保存と削除</h2>
 <ul>
 <li>すべてのデータ（リマインダー、習慣、カウントダウン、設定）は端末内データベースに保存；</li>
-<li><b>アプリを削除するとすべてのデータが完全に消去され</b>、クラウドには何も残りません；</li>
+<li><b>アプリを削除すると、端末内データベースのリマインダー、習慣、カウントダウンが削除されます</b>。</li>
 <li>カレンダーミラーの予定はアプリ内からワンタップで消去、またはシステムのカレンダーアプリから直接削除できます。</li>
 </ul>
 </section>
@@ -88,11 +91,11 @@
 <li><b>バイブレーションと起動保持（VIBRATE / WAKE_LOCK / フォアグラウンドサービス）</b>：着信音とバイブを手動で停止するまで鳴らし続け、クイックタイマーを動かすため；</li>
 <li><b>ネットワーク（INTERNET / ACCESS_NETWORK_STATE）</b>：祝日データの任意の更新のみに使用します。オフラインでも全機能を利用でき、個人データは一切送信されません。</li>
 </ul>
-<p><b>すべてのデータは端末内（ローカルデータベースと設定）にのみ保存されます。アカウントなし・解析なし・広告なし・アップロードなし。アプリを削除するとすべてのデータが完全に消去されます。</b></p>
+<p>リマインダー、習慣、カウントダウンは端末内にのみ保存されます。アプリを削除すると、そのローカルデータも削除されます。</p>
 </section>
 <section>
 <h2><span class="no">8.</span>子どものプライバシー</h2>
-<p>本アプリのレーティングは 4+ で、13 歳未満の子どもを対象とした収集は一切行いません。そもそもデータを収集しないため、子どもが使っても安全です。</p>
+<p>本アプリは 13 歳未満の子どもを対象としていません。</p>
 </section>
 <section>
 <h2><span class="no">9.</span>変更とお問い合わせ</h2>

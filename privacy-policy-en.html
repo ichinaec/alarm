@@ -30,22 +30,25 @@
 
 <header>
   <div class="logo">⏰</div>
-  <h1>Kairos · Kairos<small>Privacy Policy · v1.0</small></h1>
+  <h1>Kairos · Kairos<small>Privacy Policy · v1.2</small></h1>
 </header>
 
-<nav class="langs"><a href="privacy-policy-en.html" class="cur">English</a> <a href="privacy-policy-zh-Hans.html">简体中文</a> <a href="privacy-policy-zh-Hant.html">繁體中文</a> <a href="privacy-policy-ja.html">日本語</a> <a href="privacy-policy-ko.html">한국어</a> <a href="privacy-policy-de.html">Deutsch</a> <a href="privacy-policy-hi.html">हिन्दी</a> <a href="privacy-policy-id.html">Bahasa Indonesia</a> <a href="privacy-policy-ar.html">العربية</a> <a href="privacy-policy-he.html">עברית</a></nav>
+<nav class="langs"><a href="privacy-policy-en.html" class="cur">English</a> <a href="privacy-policy-zh-Hans.html">简体中文</a> <a href="privacy-policy-zh-Hant.html">繁體中文</a> <a href="privacy-policy-ja.html">日本語</a> <a href="privacy-policy-ko.html">한국어</a> <a href="privacy-policy-de.html">Deutsch</a> <a href="privacy-policy-fr.html">Français</a> <a href="privacy-policy-es.html">Español</a> <a href="privacy-policy-it.html">Italiano</a> <a href="privacy-policy-pt-BR.html">Português (Brasil)</a> <a href="privacy-policy-th.html">ไทย</a> <a href="privacy-policy-vi.html">Tiếng Việt</a> <a href="privacy-policy-id.html">Bahasa Indonesia</a> <a href="privacy-policy-tr.html">Türkçe</a> <a href="privacy-policy-hi.html">हिन्दी</a> <a href="privacy-policy-ar.html">العربية</a> <a href="privacy-policy-he.html">עברית</a></nav>
 
 <section>
 <h2><span class="no">1.</span>Overview</h2>
-<p>Kairos is an on-device reminder tool (reminders, countdowns, habits, quick timers, voice input). This policy explains how we handle privacy-related information. <b>Kairos is a fully standalone app: no accounts, no cloud server — all your data stays on your device by default.</b></p>
-<p>Effective date: Jan 1, 2026 · Version: v1.0</p>
+<p>Kairos is an on-device reminder tool (reminders, countdowns, habits, quick timers, voice input). This policy explains how we handle privacy-related information. <b>Kairos has no account. Your reminders, habits, and countdowns stay on your device.</b> Advertising performance is measured separately, as described below.</p>
+<p>Effective date: November 11, 2026 · Version: v1.2</p>
 </section>
 <section>
-<h2><span class="no">2.</span>What We Do NOT Collect</h2>
+<h2><span class="no">2.</span>Data and ad measurement</h2>
 <ul>
-<li>We do <b>not collect</b> any personal identity information (no registration, no phone number, no email);</li>
-<li>We do <b>not use</b> any advertising, analytics, or behavioral tracking SDKs (no IDFA / advertising identifier);</li>
-<li>We do <b>not upload</b> your reminders, habit records, or countdown data — they are stored only in the local on-device database.</li>
+<li>We do <b>not collect</b> your name, phone number, or email address. There is no registration.</li>
+<li>We do <b>not upload</b> the text of your reminders, your habit records, or your countdown content. Those stay in the local database on your device.</li>
+<li>If you allow tracking, the app reads the advertising identifier to measure ad performance. You can decline, and reminders and habits still work.</li>
+<li>A short link placed on the clipboard by a landing page is read only to claim that click. The app does not rewrite the clipboard.</li>
+<li>App opens, the screen you open, and the events for creating a reminder, a habit, and a countdown, are sent to https://sdk.adeventstrace.com. Create events and screen views are sent without a price, and screen views do not include reminder text.</li>
+<li>An Apple Search Ads attribution token is forwarded to the same server.</li>
 </ul>
 </section>
 <section>
@@ -65,13 +68,13 @@
 </section>
 <section>
 <h2><span class="no">5.</span>In-App Purchases</h2>
-<p>Pro subscriptions and one-time purchases are processed entirely through Apple's In-App Purchase system. All payment information is handled by Apple; the developer never sees your card number, billing address, or any payment details. No transaction records are retained.</p>
+<p>Pro subscriptions and one-time purchases are processed through Apple's In-App Purchase system. Card data stays with Apple. The developer does not see your card number or billing address. After a successful purchase, the app sends that transaction's price and currency to https://sdk.adeventstrace.com. Identifiers of transactions already reported are kept only on the device, so the same transaction is not sent twice.</p>
 </section>
 <section>
 <h2><span class="no">6.</span>Data Storage &amp; Deletion</h2>
 <ul>
 <li>All data (reminders, habits, countdowns, settings) lives in the local on-device database;</li>
-<li><b>Uninstalling the app permanently deletes all data</b> — nothing remains in any cloud;</li>
+<li><b>Uninstalling the app deletes the on-device database</b> of reminders, habits, and countdowns.</li>
 <li>Calendar mirror events can be cleared in one tap inside the app, or deleted directly in the system Calendar app.</li>
 </ul>
 </section>
@@ -88,11 +91,11 @@
 <li><b>Vibration &amp; keep-awake (VIBRATE / WAKE_LOCK / foreground service)</b>: keeping the ringtone and vibration going until you stop them, and running the quick countdown timer;</li>
 <li><b>Network (INTERNET / ACCESS_NETWORK_STATE)</b>: only for the optional holiday-data update. The app is fully usable offline, and no personal data is transmitted.</li>
 </ul>
-<p><b>All data is stored only on your device (local database and preferences). No account, no analytics, no ads, and nothing is uploaded — uninstalling the app permanently deletes all data.</b></p>
+<p>Reminder, habit, and countdown data is stored only on your device. Uninstalling the app deletes that local data.</p>
 </section>
 <section>
 <h2><span class="no">8.</span>Children's Privacy</h2>
-<p>The app is rated 4+ and performs no targeted collection from children under 13. Since no data is collected at all, it is equally safe for children.</p>
+<p>Kairos is not directed at children under 13.</p>
 </section>
 <section>
 <h2><span class="no">9.</span>Changes &amp; Contact</h2>

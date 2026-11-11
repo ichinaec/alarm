@@ -30,22 +30,25 @@
 
 <header>
   <div class="logo">⏰</div>
-  <h1>Kairos · 准点<small>隐私政策 · v1.0</small></h1>
+  <h1>Kairos · 准点<small>隐私政策 · v1.2</small></h1>
 </header>
 
-<nav class="langs"><a href="privacy-policy-en.html">English</a> <a href="privacy-policy-zh-Hans.html" class="cur">简体中文</a> <a href="privacy-policy-zh-Hant.html">繁體中文</a> <a href="privacy-policy-ja.html">日本語</a> <a href="privacy-policy-ko.html">한국어</a> <a href="privacy-policy-de.html">Deutsch</a> <a href="privacy-policy-hi.html">हिन्दी</a> <a href="privacy-policy-id.html">Bahasa Indonesia</a> <a href="privacy-policy-ar.html">العربية</a> <a href="privacy-policy-he.html">עברית</a></nav>
+<nav class="langs"><a href="privacy-policy-en.html">English</a> <a href="privacy-policy-zh-Hans.html" class="cur">简体中文</a> <a href="privacy-policy-zh-Hant.html">繁體中文</a> <a href="privacy-policy-ja.html">日本語</a> <a href="privacy-policy-ko.html">한국어</a> <a href="privacy-policy-de.html">Deutsch</a> <a href="privacy-policy-fr.html">Français</a> <a href="privacy-policy-es.html">Español</a> <a href="privacy-policy-it.html">Italiano</a> <a href="privacy-policy-pt-BR.html">Português (Brasil)</a> <a href="privacy-policy-th.html">ไทย</a> <a href="privacy-policy-vi.html">Tiếng Việt</a> <a href="privacy-policy-id.html">Bahasa Indonesia</a> <a href="privacy-policy-tr.html">Türkçe</a> <a href="privacy-policy-hi.html">हिन्दी</a> <a href="privacy-policy-ar.html">العربية</a> <a href="privacy-policy-he.html">עברית</a></nav>
 
 <section>
 <h2><span class="no">1.</span>总则</h2>
-<p>准点（Kairos）是一款在设备本地运行的定时提醒工具（提醒 / 倒数日 / 打卡 / 快捷倒计时 / 语音与拍照创建）。本政策说明我们如何处理与您的隐私相关的信息。<b>本应用为单机应用：无账号体系、无云服务器，您的全部数据默认存储在设备本地。</b></p>
-<p>生效日期：2026 年 1 月 1 日 · 版本：v1.0</p>
+<p>准点（Kairos）是一款在设备本地运行的定时提醒工具（提醒 / 剩余天数 / 打卡 / 快捷倒计时 / 语音与拍照创建）。本政策说明我们如何处理与您的隐私相关的信息。<b>本应用为单机应用：无账号体系。提醒、打卡和剩余天数保存在您的设备上。</b>广告效果衡量另行说明，见下一节。</p>
+<p>生效日期：2026 年 11 月 11 日 · 版本：v1.2</p>
 </section>
 <section>
-<h2><span class="no">2.</span>我们不收集的数据</h2>
+<h2><span class="no">2.</span>数据与广告效果衡量</h2>
 <ul>
-<li><b>不收集</b>任何个人身份信息（无需注册、无需手机号、无需邮箱）；</li>
-<li><b>不使用</b>任何广告、统计或用户行为分析 SDK，不进行任何形式的跟踪（无 IDFA / 广告标识符读取）；</li>
-<li><b>不上传</b>您的提醒内容、打卡记录、倒数日数据——它们仅保存在本机数据库中。</li>
+<li><b>不收集</b>姓名、手机号或邮箱，无需注册。</li>
+<li><b>不上传</b>提醒正文、打卡记录或剩余天数内容。这些内容只保存在本机数据库中。</li>
+<li>若你允许跟踪，应用会读取广告标识符，用于衡量广告效果。你可以拒绝，拒绝后仍可使用提醒和打卡。</li>
+<li>落地页写入剪贴板的短链只用于认领该次点击。应用不改写剪贴板。</li>
+<li>打开应用、打开的页面，以及创建提醒、打卡、剩余天数这三件事，会发送到 https://sdk.adeventstrace.com。创建事件和页面不带金额，页面不含提醒正文。</li>
+<li>Apple Search Ads 的归因令牌会转发到同一服务器。</li>
 </ul>
 </section>
 <section>
@@ -65,13 +68,13 @@
 </section>
 <section>
 <h2><span class="no">5.</span>内购与付款</h2>
-<p>应用的 Pro 订阅与买断项目通过 Apple App Store 内购（IAP）完成。所有支付信息均由 Apple 处理，开发者无法接触您的卡号、账单地址等任何支付信息。我们不保存任何交易明细。</p>
+<p>Pro 订阅与买断通过 Apple 的 App 内购买完成。银行卡数据留在 Apple，开发者看不到卡号或账单地址。购买成功后，应用会把这笔交易的价格和币种发送到 https://sdk.adeventstrace.com。已经上报过的交易号只保存在本机，同一笔交易不会重复发送。</p>
 </section>
 <section>
 <h2><span class="no">6.</span>数据的存储与删除</h2>
 <ul>
-<li>全部数据（提醒、打卡、倒数日、设置）存储于设备本地数据库；</li>
-<li><b>卸载应用即彻底删除全部数据</b>，无任何云端残留；</li>
+<li>全部数据（提醒、打卡、剩余天数、设置）存储于设备本地数据库；</li>
+<li><b>卸载应用会删除本机数据库中的提醒、打卡和剩余天数</b>。</li>
 <li>日历镜像产生的日程可在应用内一键清除，或直接在系统日历中删除。</li>
 </ul>
 </section>
@@ -88,11 +91,11 @@
 <li><b>震动与保持唤醒（VIBRATE / WAKE_LOCK / 前台服务）</b>：保证响铃与震动持续直到您手动停止，并驱动快捷倒计时；</li>
 <li><b>网络（INTERNET / ACCESS_NETWORK_STATE）</b>：仅用于可选的节假日数据更新。应用完全离线亦可使用，且不传输任何个人数据。</li>
 </ul>
-<p><b>所有数据仅保存在您的设备本地（本机数据库与偏好设置）。无账号、无统计、无广告、无任何上传——卸载应用即彻底删除全部数据。</b></p>
+<p>提醒、打卡和剩余天数只保存在您的设备上。卸载应用会删除这些本机数据。</p>
 </section>
 <section>
 <h2><span class="no">8.</span>儿童隐私</h2>
-<p>本应用内容分级为 4+，不面向 13 岁以下儿童做任何定向收集。由于不收集任何数据，儿童使用同样安全。</p>
+<p>本应用不面向 13 岁以下儿童。</p>
 </section>
 <section>
 <h2><span class="no">9.</span>政策变更与联系</h2>
